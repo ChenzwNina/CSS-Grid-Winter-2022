@@ -138,19 +138,23 @@ img{
 }
 
 .about, .about-image{
-  grid-row: 1 / 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 
 .clients, .clients-image{
-  grid-row: 2 / 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
  } 
  
  .method, .method-image{
-  grid-row: 3 / 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
 }
  
 .contact, .contact-image{
-  grid-row: 4 / 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
 }
 
 .text{
@@ -178,6 +182,7 @@ img{
     bottom: -20px;
     position: relative;
     left: 0;
+    border-top: 2px solid yellow;
   }
 
   .container{
